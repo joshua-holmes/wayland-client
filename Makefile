@@ -1,3 +1,3 @@
 
 run: src/main.c
-	@gcc src/*.c -lwayland-client && ./a.out && rm a.out
+	@gcc src/*.c -lwayland-client -lrt && ./a.out && rm a.out
